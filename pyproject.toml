@@ -6,7 +6,7 @@ authors = ["Your Name <your.email@example.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.10, <3.11"
+python = "^3.10, <3.13"
 numpy = "*"
 numba = "*"
 scipy = "*"
@@ -45,7 +45,7 @@ cmake = "*"
 # llvm-openmp = "*"
 imagecodecs = "*"
 ray = {version = "*", extras = ["default", "tune"]}
-torch = "1.12.1"
+torch = "^2.3"
 torchvision = "*"
 # pytorch3d = "*"
 pytorchvideo = "*"
